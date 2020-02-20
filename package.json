@@ -1,0 +1,19 @@
+{
+    "name": "upgradeable",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "truffle test",
+        "build": "rm -fr build || true && truffle build"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "lodash": "^4.17.15",
+        "yarn": "^1.22.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+        "@openzeppelin/upgrades": "^2.7.1"
+    }
+}
